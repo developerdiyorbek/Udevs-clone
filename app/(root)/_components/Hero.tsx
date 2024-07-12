@@ -6,10 +6,13 @@ import Typewriter from "typewriter-effect";
 
 function Hero() {
   return (
-    <section className="min-h-[90vh] pt-24 md:pt-18 grid grid-cols-1 lg:grid-cols-2 max-w-6xl w-full mx-auto px-4">
-      <div className="self-center ">
-        <Link href={"/"} className="w-[125px] lg:w-[267px] mb-6 max-lg:mx-auto">
-          <Image src="/icons/Logo.svg" alt="logo" width={267} height={90} />
+    <section className="min-h-[90vh] pt-24 md:pt-18 grid grid-cols-1 lg:grid-cols-2 max-w-6xl w-full mx-auto px-4 lg:gap-5">
+      <div className="self-center">
+        <Link
+          href={"/"}
+          className="w-[125px] block lg:w-[250px] mb-6 max-lg:mx-auto"
+        >
+          <Image src="/icons/Logo.svg" alt="logo" width={250} height={85} />
         </Link>
         <h1 className="text-[24px] max-lg:text-center lg:text-[40px] text-[#464359] font-extrabold">
           IT-Outsourcing Company
