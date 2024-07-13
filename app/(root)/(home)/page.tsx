@@ -1,4 +1,5 @@
 import Development from "../_components/Development";
+import ErpSystem from "../_components/ErpSystem";
 import Hero from "../_components/Hero";
 import Service from "../_components/Service";
 import Team from "../_components/Team";
@@ -10,6 +11,7 @@ function Home() {
       <Service />
       <Team />
       <Development />
+      <ErpSystem />
     </>
   );
 }
