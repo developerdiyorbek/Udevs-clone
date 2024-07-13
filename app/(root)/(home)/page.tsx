@@ -1,3 +1,4 @@
+import Development from "../_components/Development";
 import Hero from "../_components/Hero";
 import Service from "../_components/Service";
 import Team from "../_components/Team";
@@ -8,6 +9,7 @@ function Home() {
       <Hero />
       <Service />
       <Team />
+      <Development />
     </>
   );
 }
