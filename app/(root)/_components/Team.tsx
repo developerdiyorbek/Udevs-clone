@@ -8,7 +8,7 @@ function Team() {
         <SectionHeader title="Team" />
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-4">
           <div className="text-[#464359] order-2 lg:order-1">
-            <p className="font-medium text-[16px] mb-6 lg:text-[20px] max-lg:w-[500px]">
+            <p className="font-medium text-[16px] mb-6 lg:text-[20px]">
               For each project, we form a team that includes a project manager,
               business analyst, UI / UX designer, DevOps, QA engineer, backend
               and front-end developers.
